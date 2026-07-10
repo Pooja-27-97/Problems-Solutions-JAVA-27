@@ -10,3 +10,4 @@ Aim to solve 200+ problems
 5. Mazimum 69 number
 6. Minimum 27 number
 7. Sum of two integers
+8. Compare triplet
