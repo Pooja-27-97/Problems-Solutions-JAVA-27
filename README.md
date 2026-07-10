@@ -11,3 +11,12 @@ Aim to solve 200+ problems
 6. Minimum 27 number
 7. Sum of two integers
 8. Compare triplet
+9. Odd or Even
+10. Positive or Negative or Zero
+11. Swap two numbers
+12. Area of Circle
+13. Leap year
+
+###Level-2
+1. Power of 2
+2. 
