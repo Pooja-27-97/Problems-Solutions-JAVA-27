@@ -102,6 +102,77 @@ public class Level1 {
         // System.out.println("Sum: " + sum);
 
 
-        //
+        //Compare triplets
+        // int a1 = sc.nextInt();
+        // int a2 = sc.nextInt();
+        // int a3 = sc.nextInt();
+        // int anya = 0;
+
+        // int b1 = sc.nextInt();
+        // int b2 = sc.nextInt();
+        // int b3 = sc.nextInt();
+        // int bond = 0;
+
+        // if(a1 > b1) anya++;
+        // else if(b1 > a1) bond++;
+
+        // if(a2 > b2) anya++;
+        // else if(b2 > a2) bond++;
+
+        // if(a3 > b3) anya++;
+        // else if(b3 > a3) bond++;
+
+        // System.out.println("Anya: " + anya);
+        // System.out.println("Bond: " + bond);
+
+
+        //Odd or Even
+        // int n = sc.nextInt();
+
+        // if(n % 2 == 0) System.out.println("Even");
+        // else System.out.println("Odd");
+
+
+        //Positive or Negative or Zero
+        // int n = sc.nextInt();
+
+        // if(n == 0) System.out.println("Zero");
+        // else if(n > 0) System.out.println("Positive");
+        // else System.out.println("Negative");
+
+
+        //Swap 2 integers
+        // int a = sc.nextInt();
+        // int b = sc.nextInt();
+
+        //case-1 with temp
+        // int temp = a;
+        // a = b;
+        // b = temp;
+        // System.out.println(a + " , " + b);
+
+        //case-2 without temp
+        // a = a + b;
+        // b = a - b;
+        // a = a - b;
+        // System.out.println(a + " , " + b);
+
+
+        //Area of a circle
+        // double radius = sc.nextDouble();
+        // double pi = 3.142;
+        // double area = pi * radius * radius;
+        // System.out.println("Area: " + area);
+
+
+        //Leap year
+        // int year = sc.nextInt();
+
+        // if(year % 4 == 0) {
+        //     if(year % 100 == 0) {
+        //         if(year % 400 == 0) System.out.println("Leap Year"); 
+        //         else System.out.println("Not a leap year");    
+        //     } else System.out.println("Leap year");
+        // } else System.out.println("Not a leap year");
     }
 }
