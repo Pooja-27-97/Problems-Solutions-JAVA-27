@@ -8,3 +8,5 @@ Aim to solve 200+ problems
 3. Subtract the product and sum of digits of an integer
 4. Number of steps to reduce from Number to Zero
 5. Mazimum 69 number
+6. Minimum 27 number
+7. Sum of two integers

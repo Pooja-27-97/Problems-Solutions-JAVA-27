@@ -59,27 +59,49 @@ public class Level1 {
 
 
         //Maximum 69 number
-        int n = sc.nextInt();
+        // int n = sc.nextInt();
+        // int temp = n;
+        // int place = 1;
+        // int sixPlace = 0;
 
-        int temp = n;
-        int place = 1;
-        int sixPlace = 0;
+        // while (temp > 0) {
+        //     int digit = temp % 10;
+        //     if (digit == 6) {
+        //         sixPlace = place;
+        //     }
+        //     place *= 10;
+        //     temp /= 10;
+        // }
 
-        while (temp > 0) {
-            int digit = temp % 10;
+        // if (sixPlace != 0) {
+        //     n = n + 3 * sixPlace;
+        // }
+        // System.out.println(n);
 
-            if (digit == 6) {
-                sixPlace = place;
-            }
 
-            place *= 10;
-            temp /= 10;
-        }
+        //Minimum 27 number
+        // int n = sc.nextInt();
+        // int temp = n;
+        // int ninePlace = 0;
+        // int place = 1;
 
-        if (sixPlace != 0) {
-            n = n + 3 * sixPlace;
-        }
+        // while(temp > 0) {
+        //     int digit = temp % 10;
+        //     if(digit == 7) ninePlace = place;
+        //     place *= 10;
+        //     temp /= 10;
+        // }
+        // if(ninePlace != 0) n = n - (5 * ninePlace);
+        // System.out.println(n);
 
-        System.out.println(n);
+
+        //Print 2 integers sum
+        // int num1 = sc.nextInt();
+        // int num2 = sc.nextInt();
+        // int sum = num1 + num2;
+        // System.out.println("Sum: " + sum);
+
+
+        //
     }
 }
