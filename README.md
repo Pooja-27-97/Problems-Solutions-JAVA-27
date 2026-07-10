@@ -7,3 +7,4 @@ Aim to solve 200+ problems
 2. Check palindrome
 3. Subtract the product and sum of digits of an integer
 4. Number of steps to reduce from Number to Zero
+5. Mazimum 69 number
