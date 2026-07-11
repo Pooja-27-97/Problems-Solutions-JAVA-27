@@ -1,8 +1,8 @@
 # Problems-Solutions-JAVA-27
 Aim to solve 200+ problems
 
-##Conditional Statements
-###Level-1
+## Conditional Statements
+### Level-1
 1. Fizz-buzz
 2. Check palindrome
 3. Subtract the product and sum of digits of an integer
@@ -17,7 +17,10 @@ Aim to solve 200+ problems
 12. Area of Circle
 13. Leap year
 
-###Level-2
+### Level-2
 1. Power of 2
 2. Happy Number
-3. 
+3. Reverse Integer
+4. Largest of 3 numbers
+5. Roman to integers
+6. 
