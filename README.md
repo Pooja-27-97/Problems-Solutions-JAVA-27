@@ -19,4 +19,5 @@ Aim to solve 200+ problems
 
 ###Level-2
 1. Power of 2
-2. 
+2. Happy Number
+3. 
