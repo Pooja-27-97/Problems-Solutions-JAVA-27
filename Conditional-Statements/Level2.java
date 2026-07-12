@@ -25,6 +25,16 @@ public class Level2 {
             default: return 0;
         }
     }
+
+    //Apple and oranges
+    public static int fallCount(int s, int t, int friut, int values, Scanner sc) {
+        int count = 0;
+        for(int i=0; i < values; i++) {
+            int pos = friut + sc.nextInt();
+            if(pos >= s && pos <= t) count++;
+        }
+        return count;
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -95,15 +105,30 @@ public class Level2 {
 
 
         //Grading Students
-        int n = sc.nextInt();
-        for(int i=0; i < n; i++) {
-            int grade = sc.nextInt();
-            int diff = 5 - (grade % 5);
+        // int n = sc.nextInt();
+        // for(int i=0; i < n; i++) {
+        //     int grade = sc.nextInt();
+        //     int diff = 5 - (grade % 5);
 
-            if(grade >= 0 && grade <= 100) {
-                if (grade >= 38 && diff < 3) System.out.println(grade + diff);
-                else System.out.println(grade);
-            } else System.out.println("Out of range");
-        }
+        //     if(grade >= 0 && grade <= 100) {
+        //         if (grade >= 38 && diff < 3) System.out.println(grade + diff);
+        //         else System.out.println(grade);
+        //     } else System.out.println("Out of range");
+        // }
+
+
+        //Apples and Oranges
+        int start = sc.nextInt();
+        int end = sc.nextInt();
+        int apple = sc.nextInt();
+        int orange = sc.nextInt();
+        int m = sc.nextInt();
+        int n = sc.nextInt();
+
+        int appleCount = fallCount(start, end, apple, m, sc);
+        int orangeCount = fallCount(start, end, orange, n, sc);
+
+        System.out.println(appleCount);
+        System.out.println(orangeCount);
     }
 }
