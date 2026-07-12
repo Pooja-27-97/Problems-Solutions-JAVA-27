@@ -133,18 +133,27 @@ public class Level2 {
 
 
         //Kangaroo
-        int x1 = sc.nextInt();
-        int v1 = sc.nextInt();
-        int x2 = sc.nextInt();
-        int v2 = sc.nextInt();
+        // int x1 = sc.nextInt();
+        // int v1 = sc.nextInt();
+        // int x2 = sc.nextInt();
+        // int v2 = sc.nextInt();
 
-        if(v1 <= v2) System.out.println("No");
-        else {
-            if((x2 - x1) % (v1 - v2) == 0) {
-                System.out.println("Yes");
-                int n = (x2 - x1) / (v1 - v2);
-                System.out.println("They meet at " + n);
-            } else System.out.println("No");
-        }
+        // if(v1 <= v2) System.out.println("No");
+        // else {
+        //     if((x2 - x1) % (v1 - v2) == 0) {
+        //         System.out.println("Yes");
+        //         int n = (x2 - x1) / (v1 - v2);
+        //         System.out.println("They meet at " + n);
+        //     } else System.out.println("No");
+        // }
+
+
+        //Triangle Validity
+        // int s1 = sc.nextInt();
+        // int s2 = sc.nextInt();
+        // int s3 = sc.nextInt();
+
+        // if((s1 + s2) > s3 && (s1 + s3) > s2 && (s2 + s3) > s1) System.out.println("Valid");
+        // else System.out.println("Invalid");
     }
 }
