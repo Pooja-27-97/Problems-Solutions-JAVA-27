@@ -25,4 +25,6 @@ Aim to solve 200+ problems
 5. Roman to integers
 6. Grading Students
 7. Apples and Oranges
-8. 
+8. Kangaroo
+9. Triangle Validity
+10. Quadrant points
