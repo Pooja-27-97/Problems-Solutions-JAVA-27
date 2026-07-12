@@ -155,5 +155,18 @@ public class Level2 {
 
         // if((s1 + s2) > s3 && (s1 + s3) > s2 && (s2 + s3) > s1) System.out.println("Valid");
         // else System.out.println("Invalid");
+
+
+        //Quadrant points
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+
+        if(x == 0 && y == 0) System.out.println("Origin");
+        else if(x == 0 && y != 0) System.out.println("Y-Axis");
+        else if(x != 0 && y == 0) System.out.println("X-Axis");
+        else if(x > 0 && y > 0) System.out.println("Quadrant I");
+        else if(x < 0 && y > 0) System.out.println("Quadrant II");
+        else if(x < 0 && y < 0) System.out.println("Quadrant III");
+        else System.out.println("Quadrant IV");
     }
 }
