@@ -28,3 +28,8 @@ Aim to solve 200+ problems
 8. Kangaroo
 9. Triangle Validity
 10. Quadrant points
+
+### Level-3
+1. Odd count in range
+2. Count operations to obtain zero
+3. 
