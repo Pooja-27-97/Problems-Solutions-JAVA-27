@@ -118,17 +118,33 @@ public class Level2 {
 
 
         //Apples and Oranges
-        int start = sc.nextInt();
-        int end = sc.nextInt();
-        int apple = sc.nextInt();
-        int orange = sc.nextInt();
-        int m = sc.nextInt();
-        int n = sc.nextInt();
+        // int start = sc.nextInt();
+        // int end = sc.nextInt();
+        // int apple = sc.nextInt();
+        // int orange = sc.nextInt();
+        // int m = sc.nextInt();
+        // int n = sc.nextInt();
 
-        int appleCount = fallCount(start, end, apple, m, sc);
-        int orangeCount = fallCount(start, end, orange, n, sc);
+        // int appleCount = fallCount(start, end, apple, m, sc);
+        // int orangeCount = fallCount(start, end, orange, n, sc);
 
-        System.out.println(appleCount);
-        System.out.println(orangeCount);
+        // System.out.println(appleCount);
+        // System.out.println(orangeCount);
+
+
+        //Kangaroo
+        int x1 = sc.nextInt();
+        int v1 = sc.nextInt();
+        int x2 = sc.nextInt();
+        int v2 = sc.nextInt();
+
+        if(v1 <= v2) System.out.println("No");
+        else {
+            if((x2 - x1) % (v1 - v2) == 0) {
+                System.out.println("Yes");
+                int n = (x2 - x1) / (v1 - v2);
+                System.out.println("They meet at " + n);
+            } else System.out.println("No");
+        }
     }
 }
