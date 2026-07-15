@@ -32,4 +32,6 @@ Aim to solve 200+ problems
 ### Level-3
 1. Odd count in range
 2. Count operations to obtain zero
-3. 
+3. Java Datatypes
+4. EOF
+5. 
