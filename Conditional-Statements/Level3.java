@@ -32,35 +32,47 @@ public interface Level3 {
 
 
         //Java Datatypes
-        int t = sc.nextInt();
+        // int t = sc.nextInt();
 
-        for (int i = 0; i < t; i++) {
+        // for (int i = 0; i < t; i++) {
 
-            try {
+        //     try {
 
-                long num = sc.nextLong();
+        //         long num = sc.nextLong();
 
-                System.out.println(num + " can be fitted in:");
+        //         System.out.println(num + " can be fitted in:");
 
-                if (num >= Byte.MIN_VALUE && num <= Byte.MAX_VALUE)
-                    System.out.println("* byte");
+        //         if (num >= Byte.MIN_VALUE && num <= Byte.MAX_VALUE)
+        //             System.out.println("* byte");
 
-                if (num >= Short.MIN_VALUE && num <= Short.MAX_VALUE)
-                    System.out.println("* short");
+        //         if (num >= Short.MIN_VALUE && num <= Short.MAX_VALUE)
+        //             System.out.println("* short");
 
-                if (num >= Integer.MIN_VALUE && num <= Integer.MAX_VALUE)
-                    System.out.println("* int");
+        //         if (num >= Integer.MIN_VALUE && num <= Integer.MAX_VALUE)
+        //             System.out.println("* int");
 
-                if (num >= Long.MIN_VALUE && num <= Long.MAX_VALUE)
-                    System.out.println("* long");
+        //         if (num >= Long.MIN_VALUE && num <= Long.MAX_VALUE)
+        //             System.out.println("* long");
 
-            } catch (Exception e) {
+        //     } catch (Exception e) {
 
-                String num = sc.next();
+        //         String num = sc.next();
 
-                System.out.println(num + " can't be fitted anywhere.");
-            }
+        //         System.out.println(num + " can't be fitted anywhere.");
+        //     }
+        // }
+
+
+        //EOF
+        int line = 1;
+
+        while (sc.hasNextLine()) {
+            String s = sc.nextLine();
+            System.out.println(line + " " + s);
+            line++;
         }
+
+        sc.close();
 
     }
 }
