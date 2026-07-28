@@ -34,4 +34,6 @@ Aim to solve 200+ problems
 2. Count operations to obtain zero
 3. Java Datatypes
 4. EOF
-5. 
+
+### Week-1
+1. Variables and Data types
