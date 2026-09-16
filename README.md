@@ -36,4 +36,4 @@ Aim to solve 200+ problems
 4. EOF
 
 ### Week-1
-1. Variables and Data types
+1. 5 problems
