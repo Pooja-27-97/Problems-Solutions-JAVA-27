@@ -1,5 +1,15 @@
 import java.util.*;
 public class day3 {
+    public static int sum(int num) {
+        int sum = 0;
+        while (num > 0) {
+            int lastDigit = num % 10;
+            int sq = lastDigit * lastDigit;
+            sum = sum + sq;
+            num /= 10;
+        }
+        return sum;
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -52,5 +62,16 @@ public class day3 {
 
 
         //Problem-15
+        // int num = sc.nextInt();
+        // int slow = num;
+        // int fast = num;
+
+        // do {
+        //     slow = sum(slow);
+        //     fast = sum(sum(fast));
+        // } while(slow != fast);
+
+        // if(slow == 1) System.out.println("Happy");
+        // else System.out.println("Not Happy");
     }
 }
