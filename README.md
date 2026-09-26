@@ -43,3 +43,4 @@ Aim to solve 200+ problems
 ### Week-2
 4. 3 problems
 5. 3 Problems
+6. 4 problems
